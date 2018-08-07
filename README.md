@@ -1,4 +1,6 @@
-# kubernetes-goclient-example
+# Deployment of Golang clinet on k8s
+
+---
 
 Example on how to interact with Kubernetes via the [Golang client library](https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/devel/client-libraries.md).
 
@@ -29,3 +31,6 @@ There is also a convenience script `run.sh` that builds on demand (or forcefully
 `./run.sh version`
 
 will build the client _iff_ it does not exist yet, and executes it subsequently with `version` passed as parameter.
+
+
+---
